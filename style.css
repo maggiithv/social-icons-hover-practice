@@ -80,4 +80,21 @@ body{
     opacity: 1;
 
 }
+@media (max-width: 600px) {
+  .social-containers {
+    flex-direction: column;     
+    gap: 1em;
+  }
+
+  .social-containers a {
+    width: 48px;
+    height: 48px;
+    padding: 0.75em;
+  }
+
+  .social-containers a::before {
+    font-size: 0.75em;
+  }
+}
+
    
